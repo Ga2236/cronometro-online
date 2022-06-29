@@ -1,0 +1,31 @@
+body{
+background-color: black;
+display: flex;
+align-items: center;
+margin: 40px;
+flex-direction: column;
+}
+.start{
+background-color: pink;
+border: none;
+border-radius: 4px;
+color: rgb(192, 96, 96);
+padding: 4px 12px;
+font-size: 16px;
+}
+.stop{
+background-color: rgb(194, 131, 142);
+color: rgb(8, 1, 1);
+}
+button{
+box-shadow:0 2px 2px rgb(148, 7, 23);
+position:relative;
+}
+button:hover{
+background-color: rgb(172, 101, 131);
+cursor: pointer;
+}
+h1{
+font-size: 64px;
+color: 	#ffffff;
+}
